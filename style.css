@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    
+}
+
+#mainheader{
+    background-color: rgba(229, 84, 115, 0.10);
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.content{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+.content-left h1{
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 800;
+    width: 685px;
+    margin-bottom: 32px;
+}
+.content-left p{
+    font-size: 18px;
+    font-weight: 400;
+    width: 634px;
+    margin-bottom: 32px;
+}
+.content-left button{
+    background-color: #E55473;
+    padding: 20px 40px;
+    border: none;
+    font-size: 20px; 
+    font-weight: 700;
+    color: white;
+    border-radius: 7px;
+}
+.content-right{
+
+}
+.image-right{
+margin-left: 97px;
+}
+.image-right img{
+    margin-top: 50px;
+    display: block;
+}
+
+
+/* --------flower section start------ */
+.threeflower{
+    margin-bottom: 128px;
+}
+.flower-header{
+    margin-top: 180px;
+    text-align: center;
+}
+.flower-header h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    
+}
+.flower-header p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+
+.flower-item{
+    display: flex;
+    justify-content: space-between;
+}
+.onlyflower{
+    background-color: rgba(167, 33, 98, 0.15);
+    border-top-left-radius: 300px; 
+    border-top-right-radius: 300px;
+    padding: 110px 76px 0px 76px;
+}
+
+.onlyflower2{
+    background-color: rgba(167, 33, 98, 0.15);
+    border-top-left-radius: 300px; 
+    border-top-right-radius: 300px;
+    padding: 117px 47px 51px 47px;
+}
+
+.onlyflower3{
+    background-color: rgba(167, 33, 98, 0.15);
+    border-top-left-radius: 300px; 
+    border-top-right-radius: 300px;
+    padding: 67px 75px 0px 75px;
+}
+.onlyflower img{
+    display: block;
+    }
+.onlyflower2 img{
+    display: block;
+    }
+
+.onlyflower3 img{
+display: block;
+}
+.flower1{
+    margin-right: 10px;
+}
+.flower1 h3{
+    margin-top: 32px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline solid #0c0c0c;
+    text-underline-offset: 10%;
+}
+.flower2 h3{
+    margin-top: 32px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline solid #0c0c0c;
+    text-underline-offset: 10%;
+}
+
+.flower3 h3{
+    margin-top: 32px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline solid #0c0c0c;
+    text-underline-offset: 10%;
+}
+
+
+/* ----status section start----- */
+#status{
+    margin-bottom: 128px;
+}
+.status-content{
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.items{
+    padding-top: 86px;
+    padding-bottom: 86px;
+
+}
+.items h6{
+    margin-top: 20px;
+font-size: 20px;
+font-weight: 600;
+line-height: 35px;
+}
+
+/* -----hot deal css start------ */
+#hotdeal{
+    background: rgba(229, 84, 115, 0.05);
+}
+.hot-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    align-items: center;
+}
+.hotleft{
+    text-align: center;
+}
+.hotleft h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+.hotleft p{
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    width: 594px;
+}
+.hotleft button{
+    background-color: #E55473;
+    padding: 20px 40px;
+    border: none;
+    font-size: 20px; 
+    font-weight: 700;
+    color: white;
+    border-radius: 7px;
+}
+
+
+/* ----------nstagram css part start------- */
+#instagram{
+    margin-bottom: 128px;
+}
+.instagram-header{
+    text-align: center;
+}
+.instagram-header h2{
+    font-size: 40px;
+font-weight: 800;
+margin-bottom: 24px;
+text-align: center;
+}
+.instagram-header p{
+    font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin: 0 auto;
+width: 594px;
+
+}
+.insta-gallery{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
