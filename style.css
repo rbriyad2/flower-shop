@@ -41,6 +41,7 @@ body{
     font-weight: 700;
     color: white;
     border-radius: 7px;
+    cursor: pointer;
 }
 .content-right{
 
@@ -88,14 +89,14 @@ margin-left: 97px;
 }
 
 .onlyflower2{
-    background-color: rgba(167, 33, 98, 0.15);
+    background: rgba(5, 150.70, 160, 0.15);
     border-top-left-radius: 300px; 
     border-top-right-radius: 300px;
     padding: 117px 47px 51px 47px;
 }
 
 .onlyflower3{
-    background-color: rgba(167, 33, 98, 0.15);
+    background: rgba(71, 125, 17, 0.15);
     border-top-left-radius: 300px; 
     border-top-right-radius: 300px;
     padding: 67px 75px 0px 75px;
@@ -198,12 +199,14 @@ line-height: 35px;
     font-weight: 700;
     color: white;
     border-radius: 7px;
+    cursor: pointer;
 }
 
 
 /* ----------nstagram css part start------- */
 #instagram{
     margin-bottom: 128px;
+    margin-top: 128px;
 }
 .instagram-header{
     text-align: center;
@@ -226,4 +229,86 @@ width: 594px;
     margin-top: 48px;
     display: flex;
     justify-content: space-between;
+}
+
+/*  subscribe css start */
+#subscribe{
+    margin-bottom: 250px;
+}
+
+.sub-content{
+    background: url(image/sub-rec.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#subimg{
+    background: url(./image/sub-rec.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sub-content{
+    position: relative;
+    text-align: center;
+}
+.sub-content h3{
+    padding-top: 122px;
+    font-size: 40px;
+font-weight: 800;
+padding-bottom: 16px;
+}
+.sub-content p{
+    font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+padding-bottom: 48px;
+}
+.subimgbg{
+    position: absolute;
+}
+.subinput{
+    position: relative;
+
+}
+.subinput input{
+    width: 700px;
+    padding: 22px 23px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+.subinput button{
+    background-color: #E55473;
+    color: #fff;
+    padding: 20px 40px;
+    border: none;
+    font-size: 20px; 
+    font-weight: 700;
+    border-radius: 7px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+/* -----footer css start------ */
+#footer{
+    background-color: #111010;
+}
+
+.footer-content{
+    text-align: center;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.footertext{
+    font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+color: #fff;
+margin-top: 24px;
+margin-bottom: 32px;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
